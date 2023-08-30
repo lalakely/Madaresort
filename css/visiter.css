@@ -1,0 +1,643 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    background-color: rgb(19, 100, 19);
+    height: 6vw;
+}
+.logo{
+    animation: fadeIn 0.5s ease-out;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+body{
+    background: rgb(91, 206, 91);
+}
+.head1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bacceuil {
+    position: relative;
+    top : 1.99vw;
+    left: 11vw;
+    height: 4vw;
+    width: 9vw;
+    border: none;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    background-color: rgb(91, 206, 91);
+    transition: background-color 0.3s ease; 
+    z-index: 0;
+}
+.bacceuil:hover {
+    animation: changeColor 0.3s ease;
+     background-color: white;
+}
+ @keyframes changeColor {
+     0% {
+         background-color: rgb(91, 206, 91); 
+     }
+     100% {
+         background-color: white; /* Couleur finale */
+     }
+}
+.mtitle{
+    display: flex;
+    background-color: rgb(91, 206, 91);
+    font-family: monospace;
+    font-size: 4vw;
+    color: rgb(19, 100, 19);
+    text-shadow: 0.1vw 0.1vw 0.1vw black;
+    height: 5vw;
+    justify-content: center;
+    box-shadow: 0vw 0.5vw 0.5vw black;
+    z-index: 10;
+}
+.classmap{
+    background: url(../photo/lieu.jpg) no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 182vw;
+    z-index: 0;
+}
+.back-color1{
+    background-color: rgba(19, 100, 19, 0.575);
+    width: 100%;
+    height: 182vw;
+}
+.legendes{
+    animation: fadeIn 1s ease;
+    position:relative;
+    top: 30vw;
+    right:12.5vw;
+    background-color: rgba(91, 206, 91, 0.301);
+    font-family: monospace;
+    font-size: 1vw;
+    border-radius: 1vw;
+    width: 25vw;
+    height: 25vw;
+    padding: 1vw;
+    padding-left: 3vw;
+}
+.divlegend{
+    display: flex;
+}
+.im1{
+    background: url(../photo/icones_Madaresort/1-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    width:1vw;
+    height: 1vw;
+    margin: 1vw ;
+    position: relative;
+    bottom: 1vw;
+}
+.im2{
+    background: url(../photo/icones_Madaresort/2-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    width:1vw;
+    height: 1vw;
+    margin: 1vw ;
+    position: relative;
+    bottom: 1vw;
+}
+.im3{
+    background: url(../photo/icones_Madaresort/3-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    width:1vw;
+    height: 1vw;
+    margin: 1vw ;
+    position: relative;
+    bottom: 1vw;
+}
+.im4{
+    background: url(../photo/icones_Madaresort/4-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    width:1vw;
+    height: 1vw;
+    margin: 1vw ;
+    position: relative;
+    bottom: 1vw;
+}
+.im5{
+    background: url(../photo/icones_Madaresort/5-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    width:1vw;
+    height: 1vw;
+    margin: 1vw ;
+    position: relative;
+    bottom: 1vw;
+}
+.im6{
+    background: url(../photo/icones_Madaresort/6-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    width:1vw;
+    height: 1vw;
+    margin: 1vw ;
+    position: relative;
+    bottom: 1vw;
+}
+.immap{
+    animation:fadeIn 2s ease;
+    position:relative;
+    left:5vw;
+    background:url(../photo/map_Madaresort-removebg-preview.png) no-repeat;
+    width:45vw;
+    height: 45vw;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    animation: fadeIn 0.5s ease;
+    position: relative;
+    left: 15vw;
+    background: url(../photo/Madaresort_logo.png);
+    background-size: cover;
+    background-position: center;
+    width:30vw;
+    height: 30vw;
+}
+
+.divmapnlogo{
+    display: flex;
+    width: 100%;
+    height: 60vw;
+}
+.ltitle{
+    font-size:2vw;
+    color:rgba(91, 206, 91);
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+}
+.divvis{
+    background-color: rgb(19, 100, 19);
+    width:100%;
+    height:123vw;
+    box-shadow: 0vw -0.5vw 0.5vw black;
+}
+.containtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titlevis1{
+    background-color:  rgba(91, 206, 91);
+    margin-bottom: 3vw;
+    position:relative;
+    top: 1vw;
+    width:20vw;
+    height: 3vw;
+    border-radius: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    color:rgb(19, 100, 19);
+    font-size: 2vw;
+    text-shadow: 0.1vw 0.1vw rgb(14, 71, 14);
+}
+.titlevis1.anim1{
+    animation:fadeIn 2s ease;
+}
+.titlevis2{
+    background-color:  rgba(91, 206, 91);
+    margin-bottom: 3vw;
+    position:relative;
+    top: 1vw;
+    width:20vw;
+    height: 3vw;
+    border-radius: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    color:rgb(19, 100, 19);
+    font-size: 2vw;
+    text-shadow: 0.1vw 0.1vw rgb(14, 71, 14);
+}
+.titlevis2.anim1{
+    animation:fadeIn 2s ease;
+}
+.titlevis3{
+    background-color:  rgba(91, 206, 91);
+    margin-bottom: 3vw;
+    position:relative;
+    top: 1vw;
+    width:20vw;
+    height: 3vw;
+    border-radius: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    color:rgb(19, 100, 19);
+    font-size: 2vw;
+    text-shadow: 0.1vw 0.1vw rgb(14, 71, 14);
+}
+.titlevis3.anim1{
+    animation:fadeIn 2s ease;
+}
+.aboutresto{
+    background: linear-gradient(to left, rgb(91, 206, 91) 0%, rgb(91, 206, 91) 75%, transparent 90%);
+    font-family: monospace;
+    font-size: 1.1vw ;
+    width: 40vw;
+    height: 29vw;
+    border-radius: 5vw;
+    padding: 2vw;
+    padding-left: 8vw;
+    position: relative;
+    left:4vw;
+}
+.aboutresto.anim2{
+    animation:in2 2s ease;
+}
+.abouthotel{
+    background: linear-gradient(to right, rgb(91, 206, 91) 0%, rgb(91, 206, 91) 75%, transparent 90%);
+    font-family: monospace;
+    font-size: 1.1vw ;
+    width: 40vw;
+    height: 29vw;
+    border-radius: 5vw;
+    padding: 2vw;
+    padding-right: 8vw;
+    position: relative;
+    left:2vw;
+}
+.abouthotel.anim3{
+    animation:in 2s ease;
+}
+.aboutparc{
+    background: linear-gradient(to left, rgb(91, 206, 91) 0%, rgb(91, 206, 91) 75%, transparent 90%);
+    font-family: monospace;
+    font-size: 1.1vw ;
+    width: 40vw;
+    height: 33vw;
+    border-radius: 5vw;
+    padding: 2vw;
+    padding-left: 8vw;
+    position: relative;
+}
+.aboutparc.anim2{
+    animation:in2 2s ease;
+}
+.imresto1{
+    background: url(../photo/resto1.jpg);
+    background-position: center;
+    background-size: cover;
+    width:15vw;
+    height: 15vw;
+    border-radius: 2vw;
+    position:relative;
+    left:2vw;
+}
+.imresto3{
+    background: url(../photo/resto3.jpg);
+    background-position: center;
+    background-size: cover;
+    width:15vw;
+    height: 15vw;
+    border-radius: 2vw;
+    position:relative;
+    top: 12vw;
+    right: 1vw;
+}
+.imresto2{
+    background: url(../photo/resto2.jpg);
+    background-position: center;
+    background-size: cover;
+    width:20vw;
+    height: 20vw;
+    border-radius: 2vw;
+    position:relative;
+    top:4vw;
+}
+.allresto{
+    display: flex;
+    margin: 2vw;
+}
+.imhotel1{
+    background: url(../photo/hotel1.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2vw;
+    width:10vw;
+    height: 10vw;
+    position: relative;
+    top: 20vw;
+    z-index: 10;
+}
+.imhotel2{
+    background: url(../photo/hotel2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2vw;
+    width:15vw;
+    height: 15vw;
+    position: relative;
+    top: 10vw;
+    right: 2vw;
+    z-index: 5;
+}
+.imhotel3{
+    background:url(../photo/hotel3.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2vw;
+    width:20vw;
+    height: 20vw;
+    position: relative;
+    top: 2vw;
+    right: 4vw;
+}
+.imhotel4{
+    background: url(../photo/hotel4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2vw;
+    width:10vw;
+    height: 10vw;
+    position: relative;
+    right: 8vw;
+}
+.allhotel{
+    margin: 2vw;
+    display:flex;
+}
+.imparc1{
+    background: url(../photo/parc1.jpg);
+    background-position:center;
+    background-size: cover;
+    width:12vw;
+    height:12vw;
+    border-radius: 2vw;
+    position: relative;
+    top: 22vw;
+    left:12vw;
+    z-index: 10;
+}
+.imparc2{
+    background: url(../photo/parc2.jpg);
+    background-position:center;
+    background-size: cover;
+    width:10vw;
+    height:10vw;
+    border-radius: 2vw;
+    position:relative;
+    left:2vw;
+    z-index: 10;
+}
+.imparc3{
+    background: url(../photo/parc5.jpg);
+    background-position:center;
+    background-size: cover;
+    width:20vw;
+    height:20vw;
+    border-radius:2vw;
+    position:relative;
+    top: 7vw;
+}
+.imparc4{
+    background: url(../photo/parc4.jpg);
+    background-position:center;
+    background-size: cover;
+    width:10vw;
+    height:10vw;
+    border-radius: 2vw;
+    position: relative;
+    right:2vw;
+}
+.imparc5{
+    background: url(../photo/parc3.jpg);
+    background-position:center;
+    background-size: cover;
+    border-radius:2vw;
+    width:12vw;
+    height:12vw;
+    position:relative;
+    top: 22vw;
+    right: 12vw;
+}
+.allparc{
+    margin: 2vw;
+    display: flex;
+}
+.divstaff{
+    background-color: rgba(91, 206, 91);
+}
+.divCEO{
+    background: linear-gradient(to right, rgb(19, 100, 19) 0%, rgb(19, 100, 19)75%, transparent 90%);
+    margin-top: 2vw;
+    font-family: monospace;
+    margin-left: 2vw;
+    border-radius: 3vw;
+}
+.divCEO.anim3{
+    animation:in 2s ease;
+}
+.ceotitle{
+    color:rgba(91, 206, 91);
+    font-size:3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0.2vw 0.2vw 0.2vw rgb(13, 70, 13);
+}
+.ceotitle.anim1{
+    animation:fadeIn 2s ease;
+}
+.ceoimg{
+    background: url(../photo/Herilala.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 12vw ;
+    height: 12vw;
+    border-radius: 2vw;
+}
+.aboutceo{
+    display: flex;
+    justify-content: space-around;
+}
+.ceoname{
+    font-size:3vw;
+    color:rgba(91, 206, 91, 0.836);
+    
+}
+.textceo{
+    font-size: 1.2vw;
+    padding:2vw;
+    padding-right: 10vw;
+}
+.divchef{
+    background: linear-gradient(to left, rgb(19, 100, 19) 0%, rgb(19, 100, 19)75%, transparent 90%);
+    margin-top: 2vw;
+    font-family: monospace;
+    margin-right: 2vw;
+    border-radius: 3vw;
+}
+.divchef.anim3{
+    animation: in2 2s ease;
+}
+.textchef{
+    font-size: 1.2vw;
+    padding:2vw;
+    padding-left: 10vw;
+}
+.cheftitle{
+    color:rgba(91, 206, 91);
+    font-size:3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0.2vw 0.2vw 0.2vw rgb(13, 70, 13);
+}
+.divimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgchef1{
+    background: url(../photo/chef1.jpg);
+    background-position: center;
+    background-size: cover;
+    width:12vw;
+    height: 12vw;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+}
+.imgchef2{
+    background: url(../photo/chef2.jpg);
+    background-position: center;
+    background-size: cover;
+    width:12vw;
+    height: 12vw;
+}
+.imgchef3{
+    background: url(../photo/chef3.jpg);
+    background-position: center;
+    background-size: cover;
+    width:12vw;
+    height: 12vw;
+}
+.imgchef4{
+    background: url(../photo/chef4.jpeg);
+    background-position: center;
+    background-size: cover;
+    width:12vw;
+    height: 12vw;
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+.diveq{
+    background: linear-gradient(to right, rgb(19, 100, 19) 0%, rgb(19, 100, 19)75%, transparent 90%);
+    margin-top: 2vw;
+    font-family: monospace;
+    margin-left: 2vw;
+    border-radius: 3vw;
+    margin-bottom: 2vw;
+}
+.diveq.anim2{
+    animation:in 2s ease;
+}
+.equipetitle{
+    color:rgba(91, 206, 91);
+    font-size:3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0.2vw 0.2vw 0.2vw rgb(13, 70, 13); 
+}
+.texteq{
+    font-size: 1.2vw;
+    padding:2vw;
+    padding-right: 10vw;
+}
+.imgeq1{
+    background: url(../photo/equipe1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    width:12vw;
+    height: 12vw;
+}
+.imgeq2{
+    background: url(../photo/equipe2.jpg);
+    background-position: center;
+    background-size: cover;
+    width:12vw;
+    height: 12vw;
+}
+.imgeq3{
+    background: url(../photo/equipe3.jpg);
+    background-position: center;
+    background-size: cover;
+    width:12vw;
+    height: 12vw;
+}
+.imgeq4{
+    background: url(../photo/equipe4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    width:12vw;
+    height: 12vw;
+}
+.footer{
+    background-color: rgb(19, 100, 19);
+    font-family: monospace;
+    font-size: 1vw;
+    color: rgba(91, 206, 91);
+    height: 6vw;
+    position: relative;
+    bottom: 1.6vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    padding-left: 3vw;
+    padding-top: 2vw;
+}
+.back-footer{
+    background-color: rgb(19, 100, 19);
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(2vw);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0vw);
+    }
+}
+@keyframes in{
+    from{
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+@keyframes in2{
+    from{
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
